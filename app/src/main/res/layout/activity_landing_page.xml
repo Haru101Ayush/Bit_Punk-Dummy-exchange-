@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/splashart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".landing_page">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="10dp"
+       android:paddingLeft="10dp"
+       android:paddingRight="10dp"
+       android:paddingBottom="10dp">
+
+       <ImageView
+           android:layout_width="45dp"
+           android:layout_height="45dp"
+           android:layout_marginTop="11dp"
+           android:backgroundTint="@color/cardview_shadow_end_color"
+           android:src="@drawable/option"/>
+
+
+       <ImageView
+           android:paddingTop="5dp"
+           android:layout_width="65dp"
+           android:layout_height="68dp"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="5dp"
+           android:src="@drawable/pfp" />
+
+   </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Welcome back,Haru"
+        android:textSize="15sp"
+        style="bold"
+        android:textColor="#405D78"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Smart wallet"
+        android:textColor="#ffff"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+
+        >
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.CardView
+                        android:id="@+id/dash"
+                        android:layout_width="345sp"
+                        android:layout_height="149dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/grad" />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="18sp"
+                            android:paddingTop="20sp">
+                            <ImageView
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:src="@drawable/eth">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="50dp"
+                                android:text="Ethereum"
+                                android:textColor="#405D78"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:text="0.098750 ETH"
+                                android:paddingBottom="10dp"
+                                android:textColor="#FFFF"
+                                android:textSize="27sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginEnd="21dp"
+                                android:paddingBottom="10dp"
+                                android:text="**** **** 3912"
+                                android:textColor="#FFFF"
+                                android:textSize="25sp" />
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="90sp"
+                                android:layout_height="25sp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:layout_gravity="left"
+                                app:cardBackgroundColor="#0D6FA9"
+                                android:layout_marginEnd="35dp"
+                                android:layout_marginBottom="60dp"
+                                app:cardCornerRadius="60dp" >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Activate"
+                                    android:gravity="center"
+                                    android:textColor="#FFFF"/>
+
+                            </android.support.v7.widget.CardView>
+                        </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dash2"
+            android:layout_width="345sp"
+            android:layout_height="149dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/grad" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="18sp"
+                android:paddingTop="20sp">
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:src="@drawable/btcp">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="Bitcoin"
+                    android:textColor="#405D78"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="0.08420 BTC"
+                    android:paddingBottom="10dp"
+                    android:textColor="#FFFF"
+                    android:textSize="27sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="21dp"
+                    android:paddingBottom="10dp"
+                    android:text="**** **** 4746"
+                    android:textColor="#FFFF"
+                    android:textSize="25sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90sp"
+                    android:layout_height="25sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="left"
+                    app:cardBackgroundColor="#0D6FA9"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="60dp"
+                    app:cardCornerRadius="60dp" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Activate"
+                        android:gravity="center"
+                        android:textColor="#FFFF"/>
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dash3"
+            android:layout_width="345sp"
+            android:layout_height="149dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/grad" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="18sp"
+                android:paddingTop="20sp">
+                <ImageView
+                    android:layout_width="50sp"
+                    android:layout_height="50sp"
+                    android:src="@drawable/flux">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="FLUX"
+                    android:textColor="#405D78"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:text="842.056 FLUX"
+                    android:paddingBottom="10dp"
+                    android:textColor="#FFFF"
+                    android:textSize="27sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="21dp"
+                    android:paddingBottom="10dp"
+                    android:text="**** **** 7896"
+                    android:textColor="#FFFF"
+                    android:textSize="25sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="90sp"
+                    android:layout_height="25sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="left"
+                    app:cardBackgroundColor="#0D6FA9"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginBottom="60dp"
+                    app:cardCornerRadius="60dp" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Activate"
+                        android:gravity="center"
+                        android:textColor="#FFFF"/>
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </HorizontalScrollView>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_gravity="center">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grad" />
+
+
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ndz"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Digiral Token"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="10sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N F T"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="20sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="64dp"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grad" />
+
+
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/money"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Returns"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="10sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$365.00"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="20sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="64dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grad" />
+
+
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+
+                    android:src="@drawable/rave"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Invested Amount"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="10sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$542.00"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="20sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="64dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/grad" />
+
+
+                <ImageView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/rem"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current Market"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="10sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stocks"
+                    android:textColor="#ffff"
+                    android:paddingLeft="5sp"
+                    android:textSize="20sp"
+                    android:paddingTop="5sp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="64dp"/>
+
+            </android.support.v7.widget.CardView>
+        </GridLayout>
+
+
+</LinearLayout>

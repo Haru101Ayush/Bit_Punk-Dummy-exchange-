@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome"
+    android:background="@drawable/splashart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="119dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Sign up"
+            android:textColor="#FBFEFF"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/roundedittect"
+            android:elevation="4dp"
+            android:hint="username"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="13dp"
+            android:paddingBottom="@dimen/cardview_default_elevation"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/roundedittect"
+            android:elevation="4dp"
+            android:hint="E-mail"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="13dp"
+            android:paddingBottom="@dimen/cardview_default_elevation"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/roundedittect"
+            android:elevation="4dp"
+            android:hint="Password"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="13dp"
+            android:paddingBottom="@dimen/cardview_default_elevation"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/roundedittect"
+            android:elevation="4dp"
+            android:hint="Confirm password"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="13dp"
+            android:paddingBottom="@dimen/cardview_default_elevation"
+            android:textColorHint="@color/black" />
+
+
+        <Button
+            android:layout_width="290dp"
+            android:id="@+id/hogya"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundbutt"
+            android:elevation="6dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="13dp"
+            android:text="Sign up"
+            android:textColor="@color/white"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Already have an account?"
+                android:textColor="#FBFEFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sign_log"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="Log-in"
+                android:textColor="#33b4f5"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
